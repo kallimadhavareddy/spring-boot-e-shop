@@ -30,12 +30,12 @@ public class CustomerResource {
         return customerService.createCustomer(customer);
     }
 
-    @GetMapping("/customers")
+    @GetMapping("/customer")
     public Customer getCustomer(@RequestParam final String emailId){
         return customerService.getCustomer(emailId);
     }
 
-    @DeleteMapping("/customers")
+    @DeleteMapping("/customer")
     public void deleteCustomer(@RequestParam final String emailId){
         customerService.deleteCustomer(emailId);
     }

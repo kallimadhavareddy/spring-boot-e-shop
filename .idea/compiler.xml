@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eshop-customer-service" />
+        <module name="eshop-product-service" />
         <module name="spring-boot-e-shop-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eshop-customer-service" target="1.8" />
+      <module name="eshop-product-service" target="1.8" />
       <module name="spring-boot-e-shop-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

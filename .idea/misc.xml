@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/eshop-customer-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-e-shop-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-product-service/eshop-product-service/pom.xml" />
       </list>
     </option>
   </component>

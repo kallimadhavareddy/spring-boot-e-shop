@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public class CustomerDaoImpl implements CustomerDao{
 
-    private final CustomerRepository customerRepository;
+    final CustomerRepository customerRepository;
 
     @Autowired
     public CustomerDaoImpl(CustomerRepository customerRepository) {
