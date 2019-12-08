@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CTS_CASE_STUDY.iml" filepath="$PROJECT_DIR$/.idea/CTS_CASE_STUDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-config-app/eshop-config-app.iml" filepath="$PROJECT_DIR$/eshop-config-app/eshop-config-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-customer-service/eshop-customer-service.iml" filepath="$PROJECT_DIR$/eshop-customer-service/eshop-customer-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eshop-product-service/eshop-product-service/eshop-product-service.iml" filepath="$PROJECT_DIR$/eshop-product-service/eshop-product-service/eshop-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-discovery-server/eshop-discovery-server.iml" filepath="$PROJECT_DIR$/eshop-discovery-server/eshop-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-product-service/eshop-product-service.iml" filepath="$PROJECT_DIR$/eshop-product-service/eshop-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-shopping-service/eshop-shopping-service.iml" filepath="$PROJECT_DIR$/eshop-shopping-service/eshop-shopping-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-e-shop-zuul/spring-boot-e-shop-zuul.iml" filepath="$PROJECT_DIR$/spring-boot-e-shop-zuul/spring-boot-e-shop-zuul.iml" />
     </modules>
   </component>
