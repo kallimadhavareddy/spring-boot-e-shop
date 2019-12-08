@@ -1,8 +1,12 @@
+spring:
+  application:
+    name: eshop-zuul-lb
+  cloud:
+    config:
+      uri: http://localhost:8761
 zuul:
   routes:
-    create:
-      path: /create/**
-      url: http://localhost:8090/create
-    delete:
-      path: /delete/**
-      url: http://localhost:8090/delete
+    eshop-customer-client:
+      path: /customer/**
+      serviceId: eshop-customer-client
+      stripPrefix: true
