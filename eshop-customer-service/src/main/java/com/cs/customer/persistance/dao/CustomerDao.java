@@ -9,5 +9,5 @@ public interface CustomerDao {
     Customer createCustomer(Customer customer);
     List<Customer> allCustomers();
     Customer getCustomerByEmailId(String emailId);
-    void deleteCustomerByEmailId(String emailId);
+    void deleteCustomerById(int id);
 }

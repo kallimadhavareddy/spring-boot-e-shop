@@ -1,5 +1,8 @@
 package com.cs.product.persistance.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,7 +10,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="CUSTOMER")
+@Table(name="ESHOP_PRODUCT")
+@Getter
+@Setter
 public class Product {
     @Column(name = "prod_id")
     @Id

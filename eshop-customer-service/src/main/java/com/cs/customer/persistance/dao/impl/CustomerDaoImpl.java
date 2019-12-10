@@ -31,11 +31,12 @@ public class CustomerDaoImpl implements CustomerDao{
 
     @Override
     public Customer getCustomerByEmailId(String emailId) {
-        return customerRepository.findById(emailId).orElseThrow(()-> new CustomerNotFound(String.format("Customer with id %s not exists!", emailId)));
+        return customerRepository.findByEmailId(emailId);
+        //return customerRepository.findByEmailId(emailId).orElseThrow(()-> new CustomerNotFound(String.format("Customer with id %s not exists!", emailId)));
     }
 
     @Override
-    public void deleteCustomerByEmailId(String emailId) {
-         customerRepository.deleteById(emailId);
+    public void deleteCustomerById(int id) {
+         customerRepository.deleteById(id);
     }
 }

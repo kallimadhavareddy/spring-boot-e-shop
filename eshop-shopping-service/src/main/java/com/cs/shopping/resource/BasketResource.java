@@ -3,6 +3,8 @@ package com.cs.shopping.resource;
 
 import com.cs.shopping.client.CustomerClient;
 import com.cs.shopping.client.ProductClient;
+import com.cs.shopping.data.Customer;
+import com.cs.shopping.data.Product;
 import com.cs.shopping.persistance.entity.Basket;
 import com.cs.shopping.process.BasketService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,22 +37,20 @@ public class BasketResource {
     @PostMapping("/basket")
     public Basket createCustomer(Basket basket){
         if(basket.getBasketId()>0){
-            List productById = productClient.findProductById(basket.getBasketId());
-            if(productById!=null){
+            Product product = productClient.findProductById(basket.getBasketId());
+            if(product!=null){
                 System.out.println("Product is not null");
             }
         }
         if(basket.getItems()!=null){
-            basket.getItems().stream().map(items -> {
+            basket.getItems().stream().peek(items -> {
                 if(items.getProductId()>0){
-                    List customers = customerClient.findCustomerById(items.getProductId());
-                    if(customers!=null){
-                        return items;
+                    Customer customer = customerClient.findCustomerById(items.getProductId());
+                    if(customer!=null){
+                        System.out.println("Customer is not null");
                     }
                 }
-              return items;
             });
-
         }
         return basketService.createBasket(basket);
     }

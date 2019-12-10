@@ -1,11 +1,13 @@
 package com.cs.customer.presentation.resource;
 
-import com.cs.customer.persistance.entity.Customer;
+
+import com.cs.customer.presentation.data.Customer;
 import com.cs.customer.process.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,7 +28,7 @@ public class CustomerResource {
     }
 
     @PostMapping("/customer")
-    public Customer createCustomer(Customer customer){
+    public Customer createCustomer(@RequestBody Customer customer){
         return customerService.createCustomer(customer);
     }
 
@@ -36,7 +38,7 @@ public class CustomerResource {
     }
 
     @DeleteMapping("/customer")
-    public void deleteCustomer(@RequestParam final String emailId){
-        customerService.deleteCustomer(emailId);
+    public void deleteCustomer(@RequestParam final int id){
+        customerService.deleteCustomer(id);
     }
 }
