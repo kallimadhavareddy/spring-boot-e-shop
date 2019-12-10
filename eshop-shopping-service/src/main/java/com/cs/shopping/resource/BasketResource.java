@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,7 +36,7 @@ public class BasketResource {
     }
 
     @PostMapping("/basket")
-    public Basket createCustomer(Basket basket){
+    public Basket createCustomer(@RequestBody Basket basket){
         if(basket.getBasketId()>0){
             Product product = productClient.findProductById(basket.getBasketId());
             if(product!=null){

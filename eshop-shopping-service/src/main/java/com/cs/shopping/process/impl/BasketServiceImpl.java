@@ -6,6 +6,7 @@ import com.cs.shopping.process.BasketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
@@ -17,6 +18,7 @@ public class BasketServiceImpl implements BasketService {
     }
 
     @Override
+    @Transactional
     public Basket createBasket(Basket basket) {
         return basketDao.createBasket(basket);
     }
