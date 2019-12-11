@@ -1,5 +1,8 @@
 package com.cs.shopping.persistance.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,6 +16,8 @@ import java.util.Set;
 
 @Entity
 @Table(name="basket")
+@Setter
+@Getter
 public class Basket {
     @Id
     @Column(name = "basket_id")
@@ -27,43 +32,4 @@ public class Basket {
     @OneToMany(fetch= FetchType.EAGER,cascade= CascadeType.ALL, mappedBy = "basket")
     private Set<Items> items;
 
-    public int getBasketId() {
-        return basketId;
-    }
-
-    public void setBasketId(int basketId) {
-        this.basketId = basketId;
-    }
-
-    public int getCustomerId() {
-        return customerId;
-    }
-
-    public void setCustomerId(int customerId) {
-        this.customerId = customerId;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public double getTotalPrice() {
-        return totalPrice;
-    }
-
-    public void setTotalPrice(double totalPrice) {
-        this.totalPrice = totalPrice;
-    }
-
-    public Set<Items> getItems() {
-        return items;
-    }
-
-    public void setItems(Set<Items> items) {
-        this.items = items;
-    }
 }

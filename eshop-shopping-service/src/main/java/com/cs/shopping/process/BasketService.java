@@ -1,7 +1,8 @@
 package com.cs.shopping.process;
 
 
-import com.cs.shopping.persistance.entity.Basket;
+
+import com.cs.shopping.data.Basket;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

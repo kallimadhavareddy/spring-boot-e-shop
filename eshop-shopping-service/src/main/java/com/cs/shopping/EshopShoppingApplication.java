@@ -10,6 +10,8 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
+import org.modelmapper.ModelMapper;
+
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -18,6 +20,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class EshopShoppingApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EshopShoppingApplication.class, args);
+	}
+
+	@Bean
+	public ModelMapper modelMapper() {
+		return new ModelMapper();
 	}
 
 	@Bean

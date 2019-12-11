@@ -6,6 +6,8 @@ import com.cs.shopping.persistance.entity.Basket;
 import com.cs.shopping.persistance.repository.BasketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.List;
 
@@ -20,6 +22,7 @@ public class BasketDaoImpl implements BasketDao {
     }
 
     @Override
+    @Transactional
     public Basket createBasket(Basket basket) {
         return basketRepository.save(basket);
     }
