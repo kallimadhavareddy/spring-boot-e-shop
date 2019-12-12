@@ -33,7 +33,7 @@ public class CustomerResource {
     }
 
     @GetMapping("/customer")
-    public Customer getCustomer(@RequestParam final String emailId){
+    public Customer getCustomer(@RequestParam("emailId") final String emailId){
         return customerService.getCustomer(emailId);
     }
 
