@@ -3,6 +3,7 @@ package com.cs.shopping.resource;
 
 import com.cs.shopping.data.Basket;
 import com.cs.shopping.process.BasketService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,8 +36,13 @@ public class BasketResource {
     }
 
     @GetMapping("/basket")
+    @HystrixCommand(groupKey = "fallback",commandKey="fallback", fallbackMethod = "hystrixFallBack")
     public Basket getCustomer(@RequestParam final int basketId){
         return basketService.getBasket(basketId);
+    }
+
+    public String hystrixFallBack(){
+        return "Target Application is down";
     }
 
     @DeleteMapping("/basket")

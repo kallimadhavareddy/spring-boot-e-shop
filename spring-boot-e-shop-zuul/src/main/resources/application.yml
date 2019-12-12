@@ -21,15 +21,15 @@ zuul:
 eshop-customer-client:
   ribbon:
     eureka: true
-    # listOfServers: localhost:8080 #, localhost:9003, localhost:9004
+    # listOfServers: localhost:8080 #, localhost:8081, localhost:8082
     serverListRefreshInterval: 5000
 eshop-product-client:
   ribbon:
     eureka: true
-    # listOfServers: localhost:8080 #, localhost:9003, localhost:9004
+    # listOfServers: localhost:8083 #, localhost:8084, localhost:8085
     serverListRefreshInterval: 5000
 eshop-shopping-client:
   ribbon:
     eureka: true
-    # listOfServers: localhost:8080 #, localhost:9003, localhost:9004
+    # listOfServers: localhost:8086 #, localhost:8087, localhost:8088
     serverListRefreshInterval: 5000
