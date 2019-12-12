@@ -10,3 +10,26 @@ zuul:
       path: /customer/**
       serviceId: eshop-customer-client
       stripPrefix: true
+    eshop-product-client:
+      path: /product/**
+      serviceId: eshop-product-client
+      stripPrefix: true
+    eshop-shopping-client:
+      path: /basket/**
+      serviceId: eshop-shopping-client
+      stripPrefix: true
+eshop-customer-client:
+  ribbon:
+    eureka: true
+    # listOfServers: localhost:8080 #, localhost:9003, localhost:9004
+    serverListRefreshInterval: 5000
+eshop-product-client:
+  ribbon:
+    eureka: true
+    # listOfServers: localhost:8080 #, localhost:9003, localhost:9004
+    serverListRefreshInterval: 5000
+eshop-shopping-client:
+  ribbon:
+    eureka: true
+    # listOfServers: localhost:8080 #, localhost:9003, localhost:9004
+    serverListRefreshInterval: 5000

@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eshop-discovery-server/eshop-discovery-server.iml" filepath="$PROJECT_DIR$/eshop-discovery-server/eshop-discovery-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-product-service/eshop-product-service.iml" filepath="$PROJECT_DIR$/eshop-product-service/eshop-product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-shopping-service/eshop-shopping-service.iml" filepath="$PROJECT_DIR$/eshop-shopping-service/eshop-shopping-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-zipkin-server/eshop-zipkin-server.iml" filepath="$PROJECT_DIR$/eshop-zipkin-server/eshop-zipkin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-e-shop-zuul/spring-boot-e-shop-zuul.iml" filepath="$PROJECT_DIR$/spring-boot-e-shop-zuul/spring-boot-e-shop-zuul.iml" />
     </modules>
   </component>

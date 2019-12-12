@@ -11,6 +11,7 @@
         <module name="eshop-discovery-server" />
         <module name="eshop-product-service" />
         <module name="eshop-shopping-service" />
+        <module name="eshop-zipkin-server" />
         <module name="spring-boot-e-shop-zuul" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="eshop-discovery-server" target="1.8" />
       <module name="eshop-product-service" target="1.8" />
       <module name="eshop-shopping-service" target="1.8" />
+      <module name="eshop-zipkin-server" target="1.8" />
       <module name="spring-boot-e-shop-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
