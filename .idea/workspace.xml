@@ -5,9 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72a1da43-0cea-44ac-b7c0-d9fd1740ac94" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_2_0_RELEASE.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_registry_prometheus_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_common_0_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_2_0_28_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_2_0_28_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_metrics_prometheus_2_11_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_ui_2_11_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_server_2_11_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_ui_2_11_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_collector_2_11_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_4_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_12_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_2_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_2_2_RELEASE.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-shopping-service/pom.xml" afterPath="$PROJECT_DIR$/eshop-shopping-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingApplication.java" afterPath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClient.java" afterPath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/FeignResource.java" afterPath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/FeignResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java" afterPath="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-zipkin-server/pom.xml" afterPath="$PROJECT_DIR$/eshop-zipkin-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eshop-zipkin-server/src/main/java/com/cs/eshopzipkinserver/EshopZipkinServerApplication.java" afterPath="$PROJECT_DIR$/eshop-zipkin-server/src/main/java/com/cs/eshopzipkinserver/EshopZipkinServerApplication.java" />
     </list>
     <ignored path="$PROJECT_DIR$/eshop-customer-service/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-e-shop-zuul/target/" />
@@ -26,34 +78,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FeignResource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/FeignResource.java">
+      <file leaf-file-name="BasketResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasketResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java">
+      <file leaf-file-name="EurekaHttpClientDecorator.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.13/eureka-client-1.9.13.jar!/com/netflix/discovery/shared/transport/decorator/EurekaHttpClientDecorator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="186">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#1025#1026#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,17 +108,17 @@
         <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/ProductClient.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="418">
+              <caret line="49" column="21" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -81,8 +127,58 @@
       <file leaf-file-name="CustomerResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/java/com/cs/customer/presentation/resource/CustomerResource.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="31" />
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EshopZipkinServerApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eshop-zipkin-server/src/main/java/com/cs/eshopzipkinserver/EshopZipkinServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="104" lean-forward="false" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -122,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/eshopshoppingservice/EshopShoppingServiceApplication.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingServiceApplication.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/exception/CustomerNotFound.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/exception/ShoppingBasket.java" />
@@ -131,8 +226,6 @@
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/persistance/dao/CustomerDao.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/persistance/dao/BasketDao.java" />
         <option value="$PROJECT_DIR$/eshop-product-service/eshop-product-service/src/main/java/com/cs/product/presentation/resource/ProductResource.java" />
-        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-boot-e-shop-zuul/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-e-shop-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-e-shop-zuul/src/main/java/com/cs/eshop/springbooteshopzuul/SpringBootEShopZuulApplication.java" />
@@ -162,17 +255,20 @@
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/process/BasketService.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/data/Items.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/process/impl/BasketServiceImpl.java" />
-        <option value="$PROJECT_DIR$/eshop-zipkin-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eshop-zipkin-server/src/main/java/com/cs/eshopzipkinserver/EshopZipkinServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-boot-e-shop-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eshop-shopping-service/pom.xml" />
-        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java" />
         <option value="$PROJECT_DIR$/spring-boot-e-shop-zuul/src/main/java/com/cs/eshop/EShopZuulApplication.java" />
-        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingApplication.java" />
         <option value="$PROJECT_DIR$/eshop-customer-service/src/main/java/com/cs/customer/presentation/resource/CustomerResource.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClientEx.java" />
-        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClient.java" />
         <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/FeignResource.java" />
+        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClient.java" />
+        <option value="$PROJECT_DIR$/eshop-shopping-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java" />
+        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingApplication.java" />
+        <option value="$PROJECT_DIR$/eshop-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eshop-zipkin-server/src/main/java/com/cs/eshopzipkinserver/EshopZipkinServerApplication.java" />
       </list>
     </option>
   </component>
@@ -231,25 +327,63 @@
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-config-app" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-config-app" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-config-app" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-config-app" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -257,83 +391,6 @@
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
               <item name="eshop-shopping-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,16 +422,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop-shopping-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
@@ -389,25 +436,33 @@
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-e-shop-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-e-shop-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-zipkin-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-zipkin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-e-shop-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-zipkin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-e-shop-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-zipkin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -415,11 +470,11 @@
             <path>
               <item name="CTS_CASE_STUDY" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTS_CASE_STUDY" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-e-shop-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop-zipkin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="eshopzipkinserver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -639,10 +694,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.EshopShoppingApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.EShopZuulApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ProductServiceApplication" />
         <item index="2" class="java.lang.String" itemvalue="Spring Boot.CustomerServiceApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ProductServiceApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Application.EshopDiscoveryServerApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EshopDiscoveryServerApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.EShopZuulApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -659,15 +714,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575726707525</updated>
-      <workItem from="1575726709730" duration="78060000" />
+      <workItem from="1575726709730" duration="88211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78060000" />
+    <option name="totallyTimeSpent" value="88211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -685,7 +741,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.82653064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.82653064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -739,6 +795,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -753,57 +812,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-e-shop-zuul/spring-boot-e-shop-zuul.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-e-shop-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-discovery-server/src/main/java/com/cs/eshopdiscoveryserver/EshopDiscoveryServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/java/com/cs/customer/persistance/dao/impl/CustomerDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1062,46 +1070,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-zipkin-server/src/main/java/com/cs/eshopzipkinserver/EshopZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="108" lean-forward="false" selection-start-line="7" selection-start-column="108" selection-end-line="7" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#424#425#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-zipkin-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-e-shop-zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1148,42 +1120,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/java/com/cs/customer/presentation/resource/CustomerResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/ProductClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1195,6 +1135,124 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/client/CustomerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.13/eureka-client-1.9.13.jar!/com/netflix/discovery/shared/transport/decorator/EurekaHttpClientDecorator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#1025#1026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/resource/BasketResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth/2.2.0.RELEASE/spring-cloud-sleuth-2.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-sleuth/2.2.0.RELEASE/spring-cloud-starter-sleuth-2.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/java/com/cs/customer/presentation/resource/CustomerResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-zipkin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-shopping-service/src/main/java/com/cs/shopping/EshopShoppingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-customer-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshop-zipkin-server/src/main/java/com/cs/eshopzipkinserver/EshopZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="104" lean-forward="false" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+          <folding />
         </state>
       </provider>
     </entry>

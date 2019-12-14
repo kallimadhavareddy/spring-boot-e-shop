@@ -20,5 +20,5 @@ public interface CustomerClient {
     @GetMapping("/customers/{customerId}")
     Customer findCustomerById(@PathVariable("customerId") int customerId);
     @GetMapping("/customer/")
-    List getCustomer(@RequestParam("emailId") final String emailId);
+    List<?> getCustomer(@RequestParam("emailId") final String emailId);
 }

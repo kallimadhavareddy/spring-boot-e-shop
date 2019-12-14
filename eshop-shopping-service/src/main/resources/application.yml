@@ -4,3 +4,10 @@ spring:
   cloud:
     config:
       uri: http://localhost:8761
+sleuth:
+  enabled: true
+  sampler:
+    percentage: 1
+  zipkin:
+    enabled: true
+    baseUrl: http://${tracking-host:tracking}:9411

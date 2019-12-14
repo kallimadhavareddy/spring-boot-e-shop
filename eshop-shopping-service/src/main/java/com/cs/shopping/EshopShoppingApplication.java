@@ -19,6 +19,7 @@ import org.modelmapper.ModelMapper;
 @EnableFeignClients
 @EnableSwagger2
 @EnableHystrix
+
 public class EshopShoppingApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EshopShoppingApplication.class, args);
